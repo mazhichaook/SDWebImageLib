@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
 
   s.name         = "SDWebImageLib"
-  s.version      = "11.5.0"
+  s.version      = "1.0.0"
   s.summary      = "SDWebImageLib"
-  s.homepage     = "git@gitlab.58corp.com:iOS_Public_Team/SDWebImageLib.git"
+  s.homepage     = "git@github.com:mazhichaook/SDWebImageLib.git"
 
   s.description  = <<-DESC
                    #性能监控子工程
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.authors      = { "Fled Zeng"=>"zengqinglong@58.com", "company" => "58app@58.com" }
   s.platform     = :ios, '9.0'
-  s.source       = { :git => "git@gitlab.58corp.com:iOS_Public_Team/SDWebImageLib.git", :tag => "#{s.version}" }
+  s.source       = { :git => "git@github.com:mazhichaook/SDWebImageLib.git", :tag => "#{s.version}" }
   s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics'
   s.requires_arc  = true
   s.header_dir = 'SDWebImage'
