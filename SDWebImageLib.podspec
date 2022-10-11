@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics'
   s.requires_arc  = true
   s.header_dir = 'SDWebImage'
-  # s.vendored_frameworks = '*.framework'
+  s.vendored_frameworks = '*.framework'
   s.preserve_paths = '*.framework'
   # s.source_files = 'WBHybridSDK.framework/Headers/*.h'
   # s.resources    = 'WBHybridSDK.framework/WBHybridSDK.bundle'
